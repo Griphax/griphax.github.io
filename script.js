@@ -11,18 +11,18 @@ document.getElementById('griphax').addEventListener('click', function () {
 });
 
 // DOTS ANIMATION
-function startLoadingAnimation() {
-    const container = document.getElementById('loading-container');
-    container.style.display = 'block';
-}
+// function startLoadingAnimation() {
+//     const container = document.getElementById('loading-container');
+//     container.style.display = 'block';
+// }
 
-function stopLoadingAnimation() {
-    const container = document.getElementById('loading-container');
-    setTimeout(() => {
-        container.style.display = 'none';
-    }, 3000); // Adjust time based on your needs
-}
-// Example usage
-startLoadingAnimation();
-setTimeout(stopLoadingAnimation, 5000);
-// DOTS ANIMATION
+// function stopLoadingAnimation() {
+//     const container = document.getElementById('loading-container');
+//     setTimeout(() => {
+//         container.style.display = 'none';
+//     }, 3000); // Adjust time based on your needs
+// }
+// // Example usage
+// startLoadingAnimation();
+// setTimeout(stopLoadingAnimation, 5000);
+// // DOTS ANIMATION

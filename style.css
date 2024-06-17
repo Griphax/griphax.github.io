@@ -81,7 +81,7 @@ li {
 }
 
 /* DOTS ANIMATION */
-#loading-container {
+/* #loading-container {
     position: relative;
     width: 60px;
     height: 40px;
@@ -115,6 +115,6 @@ li {
     40% {
         opacity: 0;
     }
-}
+} */
 
 /* DOTS ANIMATION */
