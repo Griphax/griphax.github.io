@@ -34,6 +34,7 @@ li {
 }
 
 #subHeaders {
+    background-color: rgb(0, 0, 65);
     margin-left: 200px;
 }
 
@@ -78,3 +79,42 @@ li {
 #loading {
     color: aliceblue;
 }
+
+/* DOTS ANIMATION */
+#loading-container {
+    position: relative;
+    width: 60px;
+    height: 40px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.33s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.66s;
+}
+
+@keyframes blink {
+
+    0%,
+    80%,
+    100% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+/* DOTS ANIMATION */
